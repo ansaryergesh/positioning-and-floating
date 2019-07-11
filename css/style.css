@@ -237,16 +237,20 @@ a {
 .center-text{
    position: inherit;
    transform: translate(50%, 0%);
-   
+   padding: 2rem 0;
 
 }
-
 .small-text-center{
-    margin-top : 1.2rem;
+    font-weight: 600;
+    font-size: 1.4rem;
 }
+.small-text-center:not(:last-child) {
+    margin-top : 1.6rem;
+}
+
 
 .blue{
-    color: rgb(41, 41, 94);
+    color: rgb(76, 135, 223);
 }
 
 .little-heading{
@@ -259,7 +263,35 @@ a {
     margin-top: 3rem;
     margin-left: 20rem;
 }
-.main-part1-paragraph{
-    margin-bottom: 3rem;
-    margin-left: 20rem;
+
+.another {
+    width: 100%;
+    margin-left: 0;
 }
+
+
+.main-part3 {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.part3-image {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.part3-text { 
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 10%;
+    top: 40%;
+    font-size: 1.3rem;
+    display:inline-flex;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    width:22%;
+    vertical-align: center;
+ 
+}
+
