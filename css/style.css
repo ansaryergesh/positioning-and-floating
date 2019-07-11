@@ -14,8 +14,8 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #2b2c2e;
-  background-color: #e6e8eb;
+  color: black;
+  background-color: white;
   box-sizing: border-box; 
   font-size: 1.6rem;
   padding: 0;
@@ -26,6 +26,11 @@ body {
     display: none;
 }
 
+
+a {
+    text-decoration: none;
+    color:black;
+}
 .header{
    
     padding:.5rem 2rem;
@@ -80,11 +85,152 @@ body {
 }
 
 .right-side>button{
-    background-color: #284d99;
+    background-color: rgb(87, 135, 231);
     border: 1px solid #1646a7;
-    padding: 1rem;
+    font-size:1.2rem;
+    padding: .8rem;
     color: white;
     font-weight: 600;
     border-radius: 3px;
     text-transform: uppercase;
 }
+
+
+
+
+/* Main  */
+
+.main {
+    width:80%;
+    margin: 5.5rem auto;
+
+}
+.heading:first-child{
+    margin-bottom: 0;
+}
+
+.heading {
+    font-family: cursive;
+    font-style:italic;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    margin-left: 30%;
+}
+
+.heading-img {
+    width: 100%;
+    margin-bottom: .2rem;
+}
+
+.main-part1-paragraph {
+    width: 70%;
+    font-size: 1.5rem;
+    color:#777;
+    line-height: 1;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+}
+
+.main-part2-right {
+    width: 70%
+
+}
+
+.main-part2-left {
+    width:20%;
+}
+
+.margin-bottom{
+    margin-bottom: 1.2rem;
+}
+.author {
+    margin-top: 4rem;
+    margin-left:20rem;
+    font-size: 1.4rem;
+}
+.author>a {
+    text-decoration: underline;
+    
+
+}
+.author>a:hover {
+    text-decoration: none;
+}
+
+.date {
+    
+    font-size: 1.2rem;
+    color:grey;
+}
+.main-part2-right>span {
+    display: flex;
+    flex-direction: column
+}
+
+.text {
+    font-size: 1.8rem;
+    margin-left:20rem;
+}
+/* Icons */
+.icons {
+    margin-left: 20rem;
+}
+
+.icons {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons>ul {
+    margin-left: 27rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.social {
+    
+    margin-left: 1.5rem;
+}
+
+.fab,.fas {
+    font-size: 1.5rem;
+    padding:.6rem;
+   
+    border-radius: 15px;
+    background-color: rgb(233, 221, 221);
+}
+.fab:hover,.fas:hover {
+    border:1px solid grey;
+    background-color: white;
+}
+.fa-facebook-f{
+    padding: .6rem 1.05rem;
+}
+.fa-comment-alt{
+    position: relative;  
+    width: 1.5rem;
+    font-size: 3rem;
+}
+.fa-bookmark {
+    font-weight: 100;
+    font-size : 2.5rem;
+}
+.comment {
+    color: black;
+    font-weight: 100;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+.fa-bookmark:hover, .fa-comment-alt:hover {
+   color: rgb(221, 203, 203);
+}
+
+
