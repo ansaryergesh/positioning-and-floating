@@ -1,0 +1,60 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box }
+
+html {
+  font-size: 62.5%;
+ }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #2b2c2e;
+  background-color: #e6e8eb;
+  box-sizing: border-box; 
+  font-size: 1.6rem;
+  padding: 0;
+  
+}   
+
+.heading-none{
+    display: none;
+}
+
+.header{
+    padding:1rem 2rem;
+    display: flex;
+    border-bottom: 1px solid #d0d5db;
+    background: white;
+
+}
+
+.left-side{
+    
+    justify-content: space-between;
+
+}
+.header-center{
+    margin:0 auto;
+
+}
+
+.left-side>button{
+    margin-right: 2rem;
+    border: none;
+    background: none;
+}
+
+.fas {
+    padding:.6rem;
+}
+
+.left-side>button:hover{
+
+    background: #e4e5e7;
+}
