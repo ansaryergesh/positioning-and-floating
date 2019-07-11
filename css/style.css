@@ -58,3 +58,14 @@ body {
 
     background: #e4e5e7;
 }
+
+.link{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
