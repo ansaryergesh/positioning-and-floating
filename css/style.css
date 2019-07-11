@@ -134,6 +134,7 @@ a {
     display: flex;
     justify-content: space-around;
     padding: 2rem 4rem;
+    position: relative;
 }
 
 .main-part2-right {
@@ -188,7 +189,7 @@ a {
 }
 
 .icons>ul {
-    margin-left: 27rem;
+    margin-left: 18rem;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -233,4 +234,32 @@ a {
    color: rgb(221, 203, 203);
 }
 
+.center-text{
+   position: inherit;
+   transform: translate(50%, 0%);
+   
 
+}
+
+.small-text-center{
+    margin-top : 1.2rem;
+}
+
+.blue{
+    color: rgb(41, 41, 94);
+}
+
+.little-heading{
+    margin-left: 20rem;
+    font-weight: 600;
+    font-size: 1.9rem;
+
+}
+.video  {
+    margin-top: 3rem;
+    margin-left: 20rem;
+}
+.main-part1-paragraph{
+    margin-bottom: 3rem;
+    margin-left: 20rem;
+}
