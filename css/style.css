@@ -27,7 +27,8 @@ body {
 }
 
 .header{
-    padding:1rem 2rem;
+   
+    padding:.5rem 2rem;
     display: flex;
     border-bottom: 1px solid #d0d5db;
     background: white;
@@ -39,9 +40,14 @@ body {
     justify-content: space-between;
 
 }
+
+.right-side{
+    
+    justify-content: space-between;
+
+}
 .header-center{
     margin:0 auto;
-
 }
 
 .left-side>button{
@@ -68,4 +74,17 @@ body {
 }
 .link:hover{
     text-decoration: underline;
+}
+.stylish-heading>img{
+    height: 3rem;
+}
+
+.right-side>button{
+    background-color: #284d99;
+    border: 1px solid #1646a7;
+    padding: 1rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase;
 }
