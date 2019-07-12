@@ -100,9 +100,6 @@ a {
     text-transform: uppercase;
 }
 
-
-
-
 /* Main  */
 
 .main {
@@ -434,10 +431,69 @@ a {
     display: flex;
     justify-content: space-between;
     width: 72%;
+    margin-bottom: 6rem;
 
 }
 .btn-social>ul{
     list-style: none;
     display: inline-flex;
     justify-content: flex-end;
+}
+
+.under-col-left-side {
+    width: 65%;
+    margin-right: 2rem;
+    border-top: 1px solid black
+}
+
+.left-side-head {
+    font-size: 1.6rem;
+    margin:1.8rem auto
+   
+}
+
+.under-col-right-side{
+    width: 30%;
+    border-top: 1px solid black
+}
+
+.most-pop{
+
+}
+.most-pop-head{
+    margin:1.8rem auto;
+    font-size: 1.6rem;
+}
+
+.more-tile {
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    width:32%;
+    margin-left: 1rem;
+    margin-bottom:3.5rem
+}
+.more-tile:first-child, .more-tile:nth-child(4) {
+    margin-left:0;
+}
+
+.more-tile>img {
+    width: 100%;
+}
+.more-tile>small {
+    margin-left: auto;
+    font-size: 1rem;
+    color:grey;
+    margin-bottom:.5rem;
+}
+.more-tile>.date{
+    font-size:1.2rem;
+    margin-right: 23.5rem
+}
+.more-tile>p{
+    font-weight: 600;
+    line-height: 1.2
+}
+.more-tile>p:hover{
+    color: grey
 }
