@@ -164,7 +164,7 @@ a {
 }
 
 .date {
-    
+
     font-size: 1.2rem;
     color:grey;
 }
@@ -189,7 +189,7 @@ a {
 }
 
 .icons>ul {
-    margin-left: 18rem;
+    margin-left: 36.3rem;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -277,13 +277,13 @@ a {
 
 .part3-image {
     width: 100%;
-    position: relative;
+
 }
 .part3-text { 
     margin-left: 3rem;
     display: inline-block;
     margin-top: 3rem;
-    margin-bottom: 12rem;
+    margin-bottom: 18rem;
     width:22%;
     vertical-align: top;
     font-size: 1.1rem;
@@ -298,8 +298,8 @@ a {
 .position-box {
     position: relative
 }
-.position-box-images {
-    left: 2%;
+.position-box-text {
+    left: 1%;
     top:20%;
     position: absolute;
 
