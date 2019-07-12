@@ -278,20 +278,34 @@ a {
 .part3-image {
     width: 100%;
     position: relative;
-    display: inline-block;
 }
 .part3-text { 
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 10%;
-    top: 40%;
-    font-size: 1.3rem;
-    display:inline-flex;
-    margin-right: 2rem;
+    margin-left: 3rem;
+    display: inline-block;
     margin-top: 3rem;
+    margin-bottom: 12rem;
     width:22%;
-    vertical-align: center;
+    vertical-align: top;
+    font-size: 1.1rem;
+
  
+}
+.part3-text:first-child, .part3-text:nth-child(5) {
+    margin-left: 0;
+}
+
+
+.position-box {
+    position: relative
+}
+.position-box-images {
+    left: 2%;
+    top:20%;
+    position: absolute;
+
+}
+
+.bottom-text {
+    margin-top: 5rem;
 }
 
