@@ -318,3 +318,26 @@ a {
 
     
 }
+
+.signup-heading{
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.signup-text{
+    font-size: 1.5rem;
+    color:#777;
+    line-height: 1.2;
+    margin:1rem 0;
+}
+.signup-button{
+    background-color: rgb(66, 66, 165);
+    color: white;
+    padding: 1rem 3rem;
+    width: 120%;
+    text-transform: uppercase;
+}
+
+.signup-button:hover{
+    background-color: rgb(30, 30, 97)
+}
