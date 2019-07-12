@@ -131,19 +131,21 @@ a {
 }
 
 .row {
+    
     display: flex;
     justify-content: space-around;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     position: relative;
 }
 
 .main-part2-right {
-    width: 60%;
+    width: 70%;
 
 }
 
 .main-part2-left {
-    width:20%;
+    
+    width:25%;
 }
 
 .margin-bottom{
@@ -189,7 +191,7 @@ a {
 }
 
 .icons>ul {
-    margin-left: 36.3rem;
+    margin-left: 28.3rem;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -310,6 +312,9 @@ a {
 }
 
 .left-signup{
-    margin:35rem auto;
+    margin-top:35rem;
+    margin-bottom: 35rem;
+    padding-left: 12rem;
+
     
 }
