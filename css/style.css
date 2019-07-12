@@ -497,3 +497,27 @@ a {
 .more-tile>p:hover{
     color: grey
 }
+
+/* Footer */
+.footer{
+    border-bottom: 1px solid black;
+    margin: 0 18rem;
+    position: relative;
+}
+
+.footer-head{
+    margin-bottom:4rem;
+}
+.link{
+    float:right
+}
+
+.footer-list{
+    display: inline-flex
+}
+
+.footer-lists{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
