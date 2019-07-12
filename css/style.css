@@ -411,3 +411,33 @@ a {
     margin-bottom: 2rem;
 }
 
+.smalles-text{
+    margin-left: 20rem;
+    font-size: 1.2rem;
+    color:#777;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.read-button{
+    margin-left: 20rem;
+    padding: 1rem 10rem;
+    background-color: rgb(108, 108, 255);
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.read-button:hover{
+    background-color: rgb(30, 30, 97)
+}
+
+.btn-social{
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+
+}
+.btn-social>ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+}
