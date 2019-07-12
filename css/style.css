@@ -515,7 +515,9 @@ a {
 
 /* Footer */
 .footer{
-    border-bottom: 1px solid black;
+    padding-top: 1rem;
+    border-top: 1px solid rgb(226, 222, 222);
+    border-width: .3rem;
     margin: 0 18rem;
     position: relative;
 }
@@ -523,16 +525,40 @@ a {
 .footer-head{
     margin-bottom:4rem;
 }
-.link{
-    float:right
+.link-small{
+    align-items: center;
+    color: #1646a7;
+    font-size:1.2rem;
+    float:right;
+    
 }
 
-.footer-list{
-    display: inline-flex
-}
 
+.footer-listss{
+    display: inline-flex;
+    list-style: none
+}
 .footer-lists{
-    display: flex;
-    justify-content: space-around;
+    margin-right: 13rem;
+    font-size:1.4rem;
+}
+
+
+.li-list{
     list-style: none;
+}
+.li-list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.li-head{
+    margin-bottom: 1.5rem;
+    font-weight:600 
+}
+
+.footer-list-right {
+    padding-left:.7rem;
+    list-style: none;
+    border-left: 1px solid #d0d5db;
 }
