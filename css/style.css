@@ -138,7 +138,7 @@ a {
 }
 
 .main-part2-right {
-    width: 70%
+    width: 60%;
 
 }
 
@@ -309,3 +309,7 @@ a {
     margin-top: 5rem;
 }
 
+.left-signup{
+    margin:35rem auto;
+    
+}
