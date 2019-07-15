@@ -278,6 +278,7 @@ a {
     border:0;
     margin-top: 3rem;
     margin-left: 20rem;
+    
 }
 
 .another {
@@ -349,9 +350,10 @@ a {
     background-color: rgb(108, 108, 255);
     color: white;
     padding: 1rem 3rem;
-    width: 110%;
+    width: 100%;
     text-transform: uppercase;
-    border-radius: 5px
+    border-radius: 5px;
+    font-size: 1.3rem;
 }
 
 .signup-button:hover{
