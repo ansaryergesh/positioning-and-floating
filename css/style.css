@@ -198,6 +198,8 @@ a {
     margin-left: 20rem;
 }
 
+
+
 .icons {
     margin-bottom: 2rem;
     display: flex;
@@ -205,7 +207,7 @@ a {
 }
 
 .icons>ul {
-    margin-left: 28.3rem;
+    margin-left: auto;
     display: flex;
     justify-content: space-between;
     list-style: none;
