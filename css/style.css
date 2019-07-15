@@ -22,6 +22,7 @@ body {
   
 }   
 
+
 .heading-none{
     display: none;
 }
@@ -33,6 +34,10 @@ body {
 
 .hr {
     margin-top: 2.5rem;
+}
+
+button {
+    cursor: pointer;
 }
 
 
@@ -49,6 +54,7 @@ a {
     padding:.5rem 2rem;
     display: flex;
     border-bottom: 1px solid #d0d5db;
+    z-index: 999;
 
 }
 
@@ -129,21 +135,26 @@ a {
 }
 
 .row {
+    margin: 0 auto;
+    max-width: 140rem;
     
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem 2rem;
-    position: relative;
 }
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .main-part2-right {
-    width: 70%;
+    float: left; 
+    margin-left: 1rem;
+    width: calc(3*((100% - 2*6rem) / 4 ) + 2*6rem); 
 
 }
 
-.main-part2-left {
-    
-    width:25%;
+.main-part2-left {  
+    float: left; 
+    width: calc((100% - 3*6rem) / 4);
 }
 
 .margin-bottom{
@@ -362,8 +373,7 @@ a {
 
 .editor-images {
     margin-right:.8rem;
-    height: 6rem;
- 
+    height: 4rem;
     float: left;
    
 }
@@ -374,7 +384,8 @@ a {
 
  .editor-uls-li {
      margin-bottom:1rem;
-    
+    line-height: 1;
+    font-size: 1rem;
  }   
 
 .editor-uls-li>a {
@@ -424,22 +435,24 @@ a {
     background-color: rgb(30, 30, 97)
 }
 
-.btn-social{
-    display: flex;
-    justify-content: space-between;
-    width: 72%;
-    margin-bottom: 6rem;
 
+.btn-social{
+    margin-bottom: 10rem;
 }
-.btn-social>ul{
+
+.read-button {
+    width: 40%;
+    float: left;
+}
+.btn-social>ul{ 
+    float: right;
     list-style: none;
     display: inline-flex;
-    justify-content: flex-end;
 }
 
 .under-col-left-side {
-    width: 65%;
-    margin-right: 2rem;
+    float: left; 
+    width: calc(3*((100% - 3*6rem) / 4 ) + 4.6*2rem); 
     border-top: 1px solid black
 }
 
@@ -450,7 +463,9 @@ a {
 }
 
 .under-col-right-side{
-    width: 30%;
+    margin-left: 3rem;
+    float: left; 
+    width: calc((100% - 6rem) / 4);
     border-top: 1px solid black
 }
 
@@ -481,11 +496,11 @@ a {
     cursor: pointer;
     display: inline-flex;
     flex-direction: column;
-    width:32%;
+    width:calc((100% - 2*2rem) / 3);
     margin-left: 1rem;
     margin-bottom:3.5rem
 }
-.more-tile:first-child, .more-tile:nth-child(4) {
+.more-tile:first-child, .more-tile:nth-child(4) , .seventh-element {
     margin-left:0;
 }
 
@@ -500,7 +515,7 @@ a {
 }
 .more-tile>.date{
     font-size:1.2rem;
-    margin-right: 20rem
+    margin-right: auto;
 }
 .more-tile>p{
     font-weight: 600;
