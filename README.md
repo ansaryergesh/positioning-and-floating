@@ -1,3 +1,16 @@
-# positioning-and-floating
+# Description
 Positioning and Floating
-3rd project
+The aim of the project to copy www.nytimes.com by using positioning and floating
+
+Used: 
+* HTML
+* CSS
+
+Authors:
+===
+* Ansar https://github.com/ansaryergesh
+* Anthony https://github.com/AnthonyTC89
+
+The Website
+===
+https://rawcdn.githack.com/ansaryergesh/positioning-and-floating/develop/index.html
