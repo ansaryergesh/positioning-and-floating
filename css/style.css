@@ -50,7 +50,15 @@ a {
     text-decoration: none;
     color:black;
 }
-.header{
+
+
+br{
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 1.2rem !important;
+}
+
+.nav-bar{
     overflow: hidden;
     position: fixed;
     top: 0;
