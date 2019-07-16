@@ -139,9 +139,9 @@ br{
     margin-bottom: .2rem;
 }
 
-.main-part1-paragraph {
-    width: 70%;
-    font-size: 1.5rem;
+figcaption {
+    width:86%;
+    font-size: 1.3rem;
     color:#777;
     line-height: 1;
 }
@@ -447,12 +447,12 @@ br{
 .read-button{
 
     margin-left: 20rem;
-    padding: 1rem 7rem;
+    padding: 1rem 5rem;
     background-color: #6288A5;
     border-radius: 5px;
     color: white;
     text-transform: uppercase;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .read-button:hover{
     background-color: rgb(75, 105, 128);
@@ -485,6 +485,7 @@ br{
     margin:1.8rem auto
    
 }
+/* Most Popular */
 
 .under-col-right-side{
     margin-left: 3rem;
@@ -492,6 +493,7 @@ br{
     width: calc((100% - 6rem) / 4);
     border-top: 1px solid black
 }
+
 
 .most-pop{
     display: flex;
@@ -502,8 +504,8 @@ br{
     padding: 1rem 0;
     border-top: 1px solid  rgb(202, 202, 202);
     font-weight: 500;
-    font-size: 2rem;
-
+    font-size:1.5rem;
+    line-height: 1.2
 }
 
 .most-pop-paragraph:hover{
@@ -528,6 +530,10 @@ br{
     margin-left:0;
 }
 
+.more>h2 {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
 .more-tile>img {
     width: 100%;
 }
@@ -542,7 +548,8 @@ br{
     margin-right: auto;
 }
 .more-tile>p{
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: bold;
     line-height: 1.2
 }
 .more-tile>p:hover{
@@ -554,6 +561,7 @@ br{
     padding-top: 1rem;
     border-top: 1px solid rgb(226, 222, 222);
     border-width: .3rem;
+    width:80%;
     margin: 0 auto;
     position: relative;
 }
