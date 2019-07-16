@@ -188,6 +188,7 @@ br{
 }
 
 .date {
+
     font-size: 1.2rem;
     color:grey;
 }
@@ -444,14 +445,14 @@ br{
     margin-top: 2rem;
 }
 .read-button{
+
     margin-left: 20rem;
-    padding: 1rem 6rem;
+    padding: 1rem 7rem;
     background-color: #6288A5;
     border-radius: 5px;
     color: white;
     text-transform: uppercase;
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 1.3rem;
 }
 .read-button:hover{
     background-color: rgb(75, 105, 128);
@@ -501,8 +502,7 @@ br{
     padding: 1rem 0;
     border-top: 1px solid  rgb(202, 202, 202);
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.3
+    font-size: 2rem;
 
 }
 
@@ -516,19 +516,6 @@ br{
     font-size: 1.6rem;
 }
 
-.more h2 {
-    padding: 1rem 0;
-    font-size: 1.4rem;
-}
-.most-pop-head {
-    font-size: 1.4rem;
-}
-
-.more h2:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 .more-tile {
     cursor: pointer;
     display: inline-flex;
@@ -537,11 +524,6 @@ br{
     margin-left: 1rem;
     margin-bottom:3.5rem
 }
-.more-tile p {
-    font-size:1.4rem;
-    font-weight: 200;
-}
-
 .more-tile:first-child, .more-tile:nth-child(4) , .seventh-element {
     margin-left:0;
 }
@@ -555,9 +537,9 @@ br{
     color:grey;
     margin-bottom:.5rem;
 }
-.datee{
+.more-tile>.date{
     font-size:1.2rem;
-    float:left;
+    margin-right: auto;
 }
 .more-tile>p{
     font-weight: 600;
@@ -572,7 +554,7 @@ br{
     padding-top: 1rem;
     border-top: 1px solid rgb(226, 222, 222);
     border-width: .3rem;
-    margin: 0 18rem;
+    margin: 0 auto;
     position: relative;
 }
 
