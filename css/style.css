@@ -81,14 +81,26 @@ br{
     background: none;
 }
 
+
+.left-side>button:hover{
+       background: #e4e5e7;
+}
+
 .fas {
     padding:.6rem;
 }
 
-.left-side>button:hover{
-
-    background: #e4e5e7;
+.right-side>button{
+    background-color: rgb(87, 135, 231);
+    border: 1px solid #1646a7;
+    font-size:1.2rem;
+    padding: .8rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase;
 }
+
 
 .link{
     text-transform: uppercase;
@@ -104,16 +116,7 @@ br{
     height: 3rem;
 }
 
-.right-side>button{
-    background-color: rgb(87, 135, 231);
-    border: 1px solid #1646a7;
-    font-size:1.2rem;
-    padding: .8rem;
-    color: white;
-    font-weight: 600;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
+
 
 /* Main  */
 
@@ -162,7 +165,7 @@ figcaption {
 .main-part2-right {
     float: left; 
     margin-left: 1rem;
-    width: calc(3*((100% - 2*6rem) / 4 ) + 2*2rem); 
+    width: calc(3 * ((100% - 2*6rem) / 4 ) + 2 * 2rem); 
     margin-right: 1%;
 
 }
@@ -182,9 +185,14 @@ figcaption {
 }
 .author>a {
     text-decoration: underline;
-    
-
 }
+
+.editor-uls-li>a {
+    float:left;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 1.4rem;
+}
+
 .author>a:hover {
     text-decoration: none;
 }
@@ -204,13 +212,9 @@ figcaption {
     margin-left:20rem;
 }
 /* Icons */
+
 .icons {
     margin-left: 20rem;
-}
-
-
-
-.icons {
     margin-bottom: 2rem;
     display: flex;
     justify-content: flex-end;
@@ -409,18 +413,12 @@ figcaption {
     }
 
  .editor-uls-li {
-   
     margin-bottom:1.2rem;
     line-height: 1;
     font-size: 1rem;
-    
  }   
 
-.editor-uls-li>a {
-    float:left;
-    color:rgba(0, 0, 0, 0.8);
-    font-size: 1.4rem;
-}
+
 
 .editor-uls-li>a:hover {
     text-decoration: underline;
@@ -460,7 +458,6 @@ figcaption {
     margin-top: 2rem;
 }
 .read-button{
-
     margin-left: 20rem;
     padding: 1rem 5rem;
     background-color: #6288A5;
@@ -468,7 +465,10 @@ figcaption {
     color: white;
     text-transform: uppercase;
     font-size: 1.2rem;
+    width: 40%;
+    float: left;
 }
+
 .read-button:hover{
     background-color: #4b6980;
 }
@@ -479,10 +479,6 @@ figcaption {
 
 }
 
-.read-button {
-    width: 40%;
-    float: left;
-}
 .btn-social>ul{ 
     float: right;
     list-style: none;
@@ -491,7 +487,7 @@ figcaption {
 
 .under-col-left-side {
     float: left; 
-    width: calc(3*((100% - 3*6rem) / 4 ) + 4.6*2rem); 
+    width: calc(3 * ((100% - 3*6rem) / 4 ) + 4.6*2rem); 
     border-top: 1px solid black
 }
 
@@ -606,6 +602,11 @@ figcaption {
 .li-list{
     list-style: none;
 }
+
+.last-elements {
+    list-style: none;
+}
+
 .li-list:hover, .last-elements:hover{
     text-decoration: underline;
     cursor: pointer;
@@ -663,9 +664,7 @@ figcaption {
     justify-content: space-around;
     align-items: center;
 }
-.last-elements {
-    list-style: none;
-}
+
 .footer-list-right>hr{
     margin-top:0.5rem;
     margin-bottom: 1rem;
