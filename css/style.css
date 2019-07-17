@@ -385,13 +385,12 @@ figcaption {
 .editor-heading{
     font-size: 1.2rem;
     margin-bottom:1rem;
-    border-bottom: 1px solid rgb(201, 200, 200);
 }
 
 .editor-list{
     position: relative;
     padding-left: 12rem;
-    width: 130%;
+    width: 120%;
     
 }
 
@@ -404,10 +403,13 @@ figcaption {
 }
 
 .editor-uls {
+    display: flex;
+    flex-direction: column;
     list-style: none;
     }
 
  .editor-uls-li {
+   
     margin-bottom:1.2rem;
     line-height: 1;
     font-size: 1rem;
@@ -415,14 +417,24 @@ figcaption {
  }   
 
 .editor-uls-li>a {
-    color:grey;
+    float:left;
+    color:rgba(0, 0, 0, 0.8);
     font-size: 1.4rem;
-    
+}
+
+.editor-uls-li>a:hover {
+    text-decoration: underline;
 }
 
 .border-bottom>hr {
     margin-bottom: 1rem;
     width:8%;
+}
+
+.editors>hr {
+    margin-bottom: 1rem;
+    width:140%;
+    color: grey;
 }
 
 .img-3 {
