@@ -666,3 +666,7 @@ figcaption {
 .last-elements {
     list-style: none;
 }
+.footer-list-right>hr{
+    margin-top:0.5rem;
+    margin-bottom: 1rem;
+}
