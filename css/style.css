@@ -81,15 +81,6 @@ br{
     background: none;
 }
 
-
-.left-side>button:hover{
-       background: #e4e5e7;
-}
-
-.fas {
-    padding:.6rem;
-}
-
 .right-side>button{
     background-color: rgb(87, 135, 231);
     border: 1px solid #1646a7;
@@ -100,6 +91,16 @@ br{
     border-radius: 3px;
     text-transform: uppercase;
 }
+
+.left-side>button:hover{
+       background: #e4e5e7;
+}
+
+.fas {
+    padding:.6rem;
+}
+
+
 
 
 .link{
@@ -124,9 +125,6 @@ br{
     width:80%;
     margin: 5.5rem auto;
 }
-.heading:first-child{
-    margin-bottom: 0;
-}
 
 .heading {
     font-family: cursive;
@@ -136,6 +134,12 @@ br{
     margin-bottom: 1.2rem;
     margin-left: 30%;
 }
+
+.heading:first-child{
+    margin-bottom: 0;
+}
+
+
 
 .heading-img {
     width: 100%;
@@ -165,14 +169,14 @@ figcaption {
 .main-part2-right {
     float: left; 
     margin-left: 1rem;
-    width: calc(3 * ((100% - 2*6rem) / 4 ) + 2 * 2rem); 
+    width: calc(3 * ((100% - 2 * 6rem) / 4 ) + 2 * 2rem); 
     margin-right: 1%;
 
 }
 
 .main-part2-left {  
     float: left; 
-    width: calc((100% - 3*0.5rem) / 4);
+    width: calc((100% - 3 * 0.5rem) / 4);
 }
 
 .margin-bottom{
@@ -487,7 +491,7 @@ figcaption {
 
 .under-col-left-side {
     float: left; 
-    width: calc(3 * ((100% - 3*6rem) / 4 ) + 4.6*2rem); 
+    width: calc(3 * ((100% - 3 * 6rem) / 4 ) + 4.6 * 2rem); 
     border-top: 1px solid black
 }
 
@@ -623,11 +627,6 @@ figcaption {
     border-left: 1px solid #d0d5db;
     font-size: 1.4rem;
 }
-
-.footer-list-right>hr{
-    margin:1.5rem 0;
-}
-
 
 .nyt-icon, .fa-newspaper,.fa-th-large, .fa-utensils{
     margin-right:.5rem;
